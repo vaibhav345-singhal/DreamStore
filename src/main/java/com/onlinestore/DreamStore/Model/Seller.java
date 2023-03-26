@@ -13,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Builder
+@Builder // WE CAN CREATE OBJ WITHOUT USING NEW KEYWORD BY BUILDER
 @Table(name = "seller")
 public class Seller {
 
